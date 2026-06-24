@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Usman Arshad — Full Stack Developer</title>
+<meta name="description" content="Portfolio of Muhammad Usman Arshad, full stack developer based in Kuala Lumpur, Malaysia.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="#top" class="nav-logo">
+      <span class="mini-tower"><span></span><span></span><span></span><span></span></span>
+      Muhammad Usman Arshad
+    </a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-cta">
+      <a href="My Resume.pdf" class="btn btn-ghost btn-sm" download>Resume</a>
+      <a href="#contact" class="btn btn-primary btn-sm">Get in touch</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="nav-mobile" id="navMobile">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+    <a href="My Resume.pdf" download>Download Resume</a>
+  </div>
+</nav>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-text">
+        <p class="eyebrow">
+          <span class="dotgrid"><span></span><span></span><span></span><span></span></span>
+          Full Stack Developer
+        </p>
+        <h1>I build <span class="accent-underline">full-stack systems</span> that keep operations running.</h1>
+        <p class="lede">I'm Muhammad Usman Arshad, an ICT graduate from Asia Pacific University. I design and ship web applications that turn manual, error-prone processes into automated systems — end to end, frontend to database.</p>
+        <div class="hero-ctas">
+          <a href="#projects" class="btn btn-primary">See my work</a>
+          <a href="My Resume.pdf" class="btn btn-ghost" download>Download CV</a>
+        </div>
+        <div class="social-row">
+          <a class="btn-text" href="https://www.linkedin.com/in/muhammad-usman-arshad-6b75632b8/" target="_blank" rel="noopener">
+            LinkedIn <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+          </a>
+          
+          <a class="btn-text" href="https://github.com/muhammadusmanarshad05-max" target="_blank" rel="noopener">
+            GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+          </a>
+          <a class="btn-text" href="mailto:Muhammadusmanarshad05@gmail.com">
+            Email <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap">
+        <div class="photo-blob"></div>
+        <div class="photo-frame">
+          <div class="photo-fallback">Muhammad Usman Arshad</div>
+          
+          <img src="profile.jpeg" alt="Muhammad Usman Arshad"
+               onload="this.style.display='block'; this.previousElementSibling.style.display='none';"
+               onerror="this.style.display='none';">
+        </div>
+        <div class="floating-badge badge-1"><span class="dot"></span>Full Stack</div>
+        <div class="floating-badge badge-2"><span class="dot"></span>Open to work</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="wrap">
+      <div class="about-copy reveal">
+        <p class="eyebrow">
+          <span class="dotgrid"><span></span><span></span><span></span><span></span></span>
+          About
+        </p>
+        <h2 style="margin-bottom:24px; font-size: clamp(1.8rem, 3.4vw, 2.6rem);">A developer who'd rather fix the process than patch the symptom.</h2>
+        <p>I recently completed a Certificate in Information and Communication Technology at Asia Pacific University, Kuala Lumpur, with a focus on application and full-stack web development.</p>
+        <p>Through the SPARK Internship Program at APU and a development role at MBK Asia Sdn Bhd, I've spent the last several months building real systems for real teams — including a full inventory management platform that replaced daily manual spreadsheet entries with an automated, responsive web app.</p>
+        <p>I enjoy the full span of the stack: shaping the interface someone actually uses, the logic that runs behind it, and the database that keeps it honest.</p>
+      </div>
+      <div class="stat-grid reveal">
+        <div class="stat-card">
+          <strong>Full Stack</strong>
+          <span>React, Node.js, Django &amp; Python across the stack</span>
+        </div>
+        <div class="stat-card">
+          <strong>2 Roles</strong>
+          <span>Dev + inventory operations experience</span>
+        </div>
+        <div class="stat-card">
+          <strong>APU</strong>
+          <span>Certificate in ICT, Kuala Lumpur</span>
+        </div>
+        <div class="stat-card">
+          <strong>KL, MY</strong>
+          <span>Based in Kuala Lumpur, Malaysia</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">
+          <span class="dotgrid"><span></span><span></span><span></span><span></span></span>
+          Projects
+        </p>
+        <h2>Systems built to remove busywork</h2>
+        <p>Two inventory platforms, two different stacks — both built to replace manual tracking with something faster and harder to get wrong.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="browser-frame">
+            <div class="browser-bar"><span></span><span></span><span></span></div>
+            <div class="browser-screen">
+              
+              <img src="project1.jpeg" alt="Khanjees Inventory System screenshot"
+                   onload="this.style.display='block'; this.nextElementSibling.style.display='none';"
+                   onerror="this.style.display='none';">
+              <div class="mockup-fallback mockup-frontend">
+                <div class="row"><div class="block" style="width:34%;height:14px;"></div><div class="block accent" style="width:90px;height:14px;margin-left:auto;"></div></div>
+                <div class="row"><div class="block" style="width:100%;height:64px;"></div></div>
+                <div class="row"><div class="block" style="width:48%;height:84px;"></div><div class="block" style="width:48%;height:84px;"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Khanjees Inventory Management System</h3>
+            <p>A fully responsive inventory web app built for MBK Asia Sdn Bhd to remove daily manual stock entries and prevent variance. Generates printable PDF stock reports on demand.</p>
+            <div class="tag-row">
+              <span class="tag tag-frontend">React</span>
+              <span class="tag tag-backend">Node.js</span>
+              <span class="tag tag-database">SQL</span>
+              <span class="tag tag-tools">jsPDF</span>
+            </div>
+            <div class="project-links">
+              <a href="https://khanjeesinventory.vercel.app" target="_blank" rel="noopener">
+                Live demo
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+              </a>
+              
+              <a href="https://github.com/usman-cmd1/khan-jees-inventory" target="_blank" rel="noopener">
+                Code
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="browser-frame">
+            <div class="browser-bar"><span></span><span></span><span></span></div>
+            <div class="browser-screen">
+             
+              <img src="project2.png" alt="APU Career Centre Inventory System screenshot"
+                   onload="this.style.display='block'; this.nextElementSibling.style.display='none';"
+                   onerror="this.style.display='none';">
+              <div class="mockup-fallback mockup-backend">
+                <div class="row"><div class="block" style="width:28%;height:14px;"></div><div class="block accent" style="width:90px;height:14px;margin-left:auto;"></div></div>
+                <div class="row"><div class="block" style="width:30%;height:140px;"></div><div class="block" style="width:66%;height:140px;"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>APU Career Centre Inventory System</h3>
+            <p>An internal inventory tracking tool built during the SPARK Internship Program for Asia Pacific University's Career Centre staff, streamlining day-to-day stock management.</p>
+            <div class="tag-row">
+              <span class="tag tag-backend">Django</span>
+              <span class="tag tag-backend">Python</span>
+              <span class="tag tag-frontend">JavaScript</span>
+            </div>
+            <div class="project-links">
+            
+              <a href="https://github.com/muhammadusmanarshad05-max/APU-Inventory/" target="_blank" rel="noopener">
+                Code
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">
+          <span class="dotgrid"><span></span><span></span><span></span><span></span></span>
+          Skills
+        </p>
+        <h2>The same four layers, every time</h2>
+        <p>I think about every project in these four layers — it's how I structure my work, and how I structured this page.</p>
+      </div>
+
+      <div class="skills-layout">
+        <div class="tower reveal" id="tower">
+          <div class="layer layer-frontend">
+            <div class="layer-label">Layer 01</div>
+            <div class="layer-stack-name">Frontend</div>
+            <div class="layer-tech">React.js · JavaScript · HTML5 · CSS</div>
+          </div>
+          <div class="layer layer-backend">
+            <div class="layer-label">Layer 02</div>
+            <div class="layer-stack-name">Backend</div>
+            <div class="layer-tech">Node.js · Django · Python</div>
+          </div>
+          <div class="layer layer-database">
+            <div class="layer-label">Layer 03</div>
+            <div class="layer-stack-name">Database</div>
+            <div class="layer-tech">SQL</div>
+          </div>
+          <div class="layer layer-tools">
+            <div class="layer-label">Layer 04</div>
+            <div class="layer-stack-name">Tooling</div>
+            <div class="layer-tech">Git · GitHub · CI/CD · DevOps</div>
+          </div>
+        </div>
+
+        <div class="skills-grid reveal">
+          <div class="skill-card">
+            <div class="bar"></div>
+            <h4>Frontend</h4>
+            <div class="tag-list">
+              <span class="tag tag-frontend">HTML5</span>
+              <span class="tag tag-frontend">CSS</span>
+              <span class="tag tag-frontend">JavaScript</span>
+              <span class="tag tag-frontend">React.js</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="bar"></div>
+            <h4>Backend</h4>
+            <div class="tag-list">
+              <span class="tag tag-backend">Node.js</span>
+              <span class="tag tag-backend">Django</span>
+              <span class="tag tag-backend">Python</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="bar"></div>
+            <h4>Database</h4>
+            <div class="tag-list">
+              <span class="tag tag-database">SQL</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="bar"></div>
+            <h4>Tools &amp; Workflow</h4>
+            <div class="tag-list">
+              <span class="tag tag-tools">GitHub</span>
+              <span class="tag tag-tools">CI/CD</span>
+              <span class="tag tag-tools">DevOps</span>
+              <span class="tag tag-tools">MS Office</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">
+          <span class="dotgrid"><span></span><span></span><span></span><span></span></span>
+          Experience
+        </p>
+        <h2>Where I've worked</h2>
+        <p>Experience years shown below.</p>
+      </div>
+
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-head">
+            <h3>Inventory Control Manager</h3>
+            <span class="timeline-date">2025 — 2026</span>
+          </div>
+          <div class="timeline-company">MBK Asia Sdn Bhd</div>
+          <p class="desc">Tracked vendor supplies and daily stock levels for a restaurant-based warehouse, forecasting inventory needs and maintaining stock records.</p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-head">
+            <h3>Web Development Intern — SPARK Internship</h3>
+            <span class="timeline-date">2026</span>
+          </div>
+          <div class="timeline-company">Asia Pacific University</div>
+          <p class="desc">Built an inventory management system for APU's Career Centre staff using Django, while strengthening JavaScript and Python skills.</p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-head">
+            <h3>Web Application Developer</h3>
+            <span class="timeline-date">2026</span>
+          </div>
+          <div class="timeline-company">MBK Asia Sdn Bhd</div>
+          <p class="desc">Designed and built a fully responsive inventory web app using React, Node.js and SQL, with PDF reporting via jsPDF — now extending into the company's online ordering platform.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT MEEEEE -->
+  <section id="contact">
+    <div class="wrap contact reveal">
+      <p class="eyebrow" style="justify-content:center; color:rgba(255,255,255,0.6);">
+        <span class="dotgrid"><span></span><span></span><span></span><span></span></span>
+        Contact
+      </p>
+      <h2>Let's build something useful.</h2>
+      <p>Open to full-stack developer roles and freelance projects. — Happy to work remotely.</p>
+      <div class="contact-grid">
+        <a class="contact-pill" href="mailto:Muhammadusmanarshad05@gmail.com">Email me</a>
+        <a class="contact-pill" href="tel:+601112466879">+60 11-1246 6879</a>
+        <a class="contact-pill" href="https://www.linkedin.com/in/muhammad-usman-arshad-6b75632b8/" target="_blank" rel="noopener">LinkedIn</a>
+        
+        <a class="contact-pill" href="https://github.com/muhammadusmanarshad05-max" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p class="footer-tag">&copy; <span id="year"></span> Muhammad Usman Arshad — Built with HTML, CSS &amp; JavaScript.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
